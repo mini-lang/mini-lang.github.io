@@ -1,4 +1,4 @@
-# Write a language in a week - 2. Theory
+# Write a language in a week - 1. Theory
 
 > Warning! This article is still under construction!
 
@@ -13,4 +13,4 @@ Like natural languages such as English, German, French, Spanish, etc., many prog
 
 ---
 
-[< Previous chapter](https://dev.to/williamragstad/write-a-language-in-a-week-introduction-2el6) | **Chapter 1** | _Next chapter coming soon!_
+[< Previous chapter](/0-intro.md) | **Chapter 1** | _Next chapter coming soon!_

@@ -1,4 +1,10 @@
-# Write a language in a week - 1. Introduction
+<div align="center">
+    <h1><b>Write a language in a week</b></h1>
+    <p>By <em>William Rågstad</em>, 2022-04-29.</p>
+</div>
+<br/><br/>
+
+# 0. Introduction
 
 In this short series, together we will implement a programming language in just one week. This is a challenge for all developers out there who are interested in developing their skills and gaining a deeper understanding of the general principles on which programming languages are based.
 
@@ -43,8 +49,8 @@ All code and examples can be found on the official mini-lang GitHub repository.
 Sharing knowledge is one of the greatest abilities of mankind.
 Use the tags **#WAL** (Write a language) or **#WAL-W** (-in one week) when referring to these articles.
 
-> #### Let's get started with the series and build ourselves a language!
+> #### Let's get started the series and build ourselves our own programming language! 🎉
 
 ---
 
-**Chapter 0** | [Next chapter >](https://dev.to/williamragstad/write-a-language-in-a-week-theory-2hkg)
+**Chapter 0** | [Next chapter >](/2-theory.md)
