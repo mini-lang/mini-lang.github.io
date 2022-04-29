@@ -1,0 +1,50 @@
+# Write a language in a week - Introduction
+
+In this short series, together we will implement a programming language in just one week. This is a challenge for all developers out there who are interested in developing their skills and gaining a deeper understanding of the general principles on which programming languages are based.
+
+> I truly believe that every programmer should at least have tried to write their own little toy language in their career, if not just because it's an incredibly creative and fun experience!
+
+We will start with the basics, theory and glue for the whole project. It is important to obtain a good understanding of the goal, methods and techniques before actually implementing anything in code.
+
+All code will be written in Python, this may be a somewhat controversial choice, but will in my opinion get general concepts and ideas across with much less friction. So, all knowledge gained from these tutorials will be easily transferable and you should not be hindered by unfamiliar syntax.
+
+## Goal
+So what's the point of all this?
+My hope is to share some knowledge and encourage fellow interested developers to take interest in programming language design, as well as having a good time in the process.
+If this series results in a couple of new languages somewhere on the web, I'd be extremely happy and would love to see your progress!
+
+Writing your own programming language will even strengthen your resume and be a great addition to your portfolio.
+
+
+## Do we need more languages?
+**Yes!**
+Or, well… Not in the sense you might think.
+So there are more than enough popular general purpose programming languages out there, each with its own twist on things.
+But that is not the goal here, the scope of this effort is to build something small that only you or a friend would care about and appreciate. With this methodology we can build something that we will be proud of ourselves. And if others happen to discover our little corner of the universe and get interested, share that experience with them!
+
+
+## Who am I?
+Glad you asked! Why should I sit here and tell you what to do and what not? Great question.
+My name is William, and I am currently studying computer science at [KTH](https://en.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology) here in Sweden. I have been interested in language design since 2016 and have developed a handful of my own scripting (interpreted) and compiled languages. One of the most prominent examples is [Lento](https://lento-lang.org/), which is a functional general-purpose programming language that I have been working on since the end of 2020.
+
+I am currently working on my final dissertation in a research project together with a number of PhD doctoral students, developing a meta-language system for creating embedded domain-specific and general-purpose languages.
+
+
+## Release schedule
+The idea is that I will work on and continue writing articles about every two weeks, and release them when they are refined and ready.
+Of course, many of you will have constructive feedback, tips and ideas that I will read and consider for the upcoming parts, or even edit existing articles to improve and clarify sections.
+
+
+## Source code
+All code and examples can be found on the official mini-lang GitHub repository.
+[https://github.com/WilliamRagstad/mini-lang](https://github.com/WilliamRagstad/mini-lang)
+
+## Share your experience!
+Sharing knowledge is one of the greatest abilities of mankind.
+Use the tags **#WAL** (Write a language) or **#WAL-W** (-in one week) when referring to these articles.
+
+> #### Let's get started with the series and build ourselves a language!
+
+---
+
+**Chapter 0** | [Next chapter >](https://dev.to/williamragstad/write-a-language-in-a-week-theory-2hkg)
