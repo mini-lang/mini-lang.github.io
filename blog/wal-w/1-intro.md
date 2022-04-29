@@ -1,4 +1,4 @@
-# Write a language in a week - Introduction
+# Write a language in a week - 1. Introduction
 
 In this short series, together we will implement a programming language in just one week. This is a challenge for all developers out there who are interested in developing their skills and gaining a deeper understanding of the general principles on which programming languages are based.
 
