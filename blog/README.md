@@ -3,6 +3,8 @@ layout: default
 title: blog
 ---
 
+# The `mini` blog
+
 Welcome to the official [mini-lang](https://www.mini-lang.org) blog!
 This is a place where you can read about mini-lang, learn about the language, and the community around it.
 
