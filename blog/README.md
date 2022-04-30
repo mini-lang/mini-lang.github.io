@@ -1,6 +1,6 @@
 ---
 layout: default
-title: blog
+title: Blog
 ---
 
 # The `mini` blog
