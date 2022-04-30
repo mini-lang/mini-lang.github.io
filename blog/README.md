@@ -19,9 +19,9 @@ Below is a list of the most recent posts.
       <h2 style="margin-bottom: 0px;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.summary }}
       <!-- tags -->
-      <div style="margin-top: 15px;">
+      <div style="margin-top: 5px;">
         {% for tag in post.tags %}
-          <span style="color: #999; border-radius: 3px; padding: 3px; margin-right: 5px;">{{ tag }}</span>
+          <span style="color: #999; margin-right: 5px;">{{ tag }}</span>
         {% endfor %}
       </div>
     </li>
