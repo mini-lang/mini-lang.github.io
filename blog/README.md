@@ -12,8 +12,8 @@ Below is a list of the most recent posts:
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <li style="margin-bottom: 15px;">
+      <h2 style="margin-bottom: 0px;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.summary }}
     </li>
   {% endfor %}
