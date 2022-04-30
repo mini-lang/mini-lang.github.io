@@ -33,7 +33,7 @@ Below is a list of the most recent posts.
 <ul>
   {% for category in site.categories %}
     <li style="margin-bottom: 15px;">
-      <h2 style="margin-bottom: 0px;"><a href="{{ category.url }}">{{ category.name }}</a></h2>
+      <h2 style="margin-bottom: 0px;"><a href="{{ category.url }}">{{ category.title }}</a></h2>
       {{ category.description }}
     </li>
   {% endfor %}
