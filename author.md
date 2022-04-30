@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: default
 title: "Author"
 summary: "A short bio about me!"
 ---
 
-# William Rågstad {% avatar WilliamRagstad %}
+# {% avatar WilliamRagstad %} William Rågstad
 Hello! I'm William Rågstad, a software developer from Sweden.
 I'm really interested in programming languages, and I'm the one working on a the small mini language.
 
