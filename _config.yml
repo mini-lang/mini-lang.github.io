@@ -1,3 +1,8 @@
 remote_theme: jekyll/minima
 title: mini lang's homepage
 description: The official mini programming language website
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
