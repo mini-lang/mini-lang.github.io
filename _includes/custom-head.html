@@ -53,9 +53,18 @@
         link.addEventListener("click", function (e) {
             e.preventDefault();
             document.body.classList.toggle("dark-theme");
-            link.innerHTML = document.body.classList.contains("dark-theme") ? "☀️" : "🌙";
+            const isDark = document.body.classList.contains("dark-theme");
+            link.innerHTML = isDark ? "☀️" : "🌙";
+            localStorage.setItem("dark-theme", isDark);
         });
-        link.innerHTML = "🌙";
+        const isDark = localStorage.getItem("dark-theme");
+        if (isDark) {
+            document.body.classList.add("dark-theme");
+            link.innerHTML = "☀️";
+        }
+        else {
+            link.innerHTML = "🌙";
+        }
     });
 
 </script>
