@@ -10,12 +10,14 @@
 
 </style>
 <script>
-    const link = document.getElementById("dark-theme-link");
-    link.addEventListener("click", function (e) {
-        e.preventDefault();
-        document.body.classList.toggle("dark-theme");
-        link.innerHTML = document.body.classList.contains("dark-theme") ? "☀️" : "🌙";
+    document.addEventListener('DOMContentLoaded', function () {
+        const link = document.getElementById("dark-theme-link");
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            document.body.classList.toggle("dark-theme");
+            link.innerHTML = document.body.classList.contains("dark-theme") ? "☀️" : "🌙";
+        });
+        link.innerHTML = "🌙";
     });
-    link.innerHTML = "🌙";
 
 </script>
