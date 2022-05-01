@@ -46,6 +46,7 @@
     .dark-theme a {
         color: #6dc2ff;
     }
+
     .dark-theme a:visited {
         color: #6adc7f;
     }
@@ -65,8 +66,7 @@
         if (isDark) {
             document.body.classList.add("dark-theme");
             link.innerHTML = "☀️";
-        }
-        else {
+        } else {
             link.innerHTML = "🌙";
         }
     });
