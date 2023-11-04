@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Blog
-permalink: /blog/
+permalink: /blog
 ---
 
 # The `mini` blog

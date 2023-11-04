@@ -1,0 +1,47 @@
+body.dark-theme {
+    color: #dcdcdc;
+    background-color: #1a1a1a;
+}
+
+.dark-theme>.site-header {
+    border-color: #393939;
+}
+
+.dark-theme>.site-footer {
+    border-color: #393939;
+}
+
+.dark-theme>.site-header>.wrapper>.site-nav {
+    background-color: #1a1a1a;
+    border-color: #393939;
+}
+
+.dark-theme>.site-header>.wrapper>.site-nav>.trigger>.page-link {
+    color: #dcdcdc;
+}
+
+.dark-theme pre,
+.dark-theme code {
+    background-color: #242428;
+    border-color: #575757;
+}
+
+.dark-theme .highlighter-rouge .highlight {
+    background-color: #242428;
+}
+
+.dark-theme blockquote {
+    border-color: #439f46;
+}
+
+.dark-theme strong {
+    color: #c5cbd1;
+}
+
+.dark-theme a {
+    color: #6dc2ff;
+}
+
+.dark-theme a:visited {
+    color: #6adc7f;
+}
