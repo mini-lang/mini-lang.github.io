@@ -22,24 +22,15 @@ It is not intended to be a full language, but rather a language that can be expa
 
 <br/>
 
-
 ## Installation
 
-Install the latest version of `mini` using the commands below.
-
+The latest version of `mini` can be installed using the commands below:
 ```bash
 > git clone https://github.com/mini-lang/mini-lang
 > cd mini-lang
 > py mini.py
 ```
 
-The `mini` interpreter is written in [Python](https://www.python.org/) and requires version `3.0`, `3.6` or later.
+> `mini` requires [Python](https://www.python.org/) version `3.0`, `3.6` or later.
 
-### Persistent installation
-
-1. Clone the repository to a program directory of your choice.
-Suggested directory: `C:\Program Files`, `C:\Program Files (x86)` or `/usr/local/bin`.
-
-2. Add the directory to your `PATH` environment variable. E.g. `/usr/local/bin/mini-lang`.
-
-3. Done! Run the `mini` interpreter from any directory.
+<br/>
