@@ -4,7 +4,7 @@
     <p>
     <br>
         <b>The mini programming language</b> built for the<br>
-        <a href="https://dev.to/williamragstad/series/17603" about="_blank">
+        <a href="https://www.mini-lang.org/blog/" about="_blank">
             <em>Write a language in a week</em>
         </a> series.
     </p>
