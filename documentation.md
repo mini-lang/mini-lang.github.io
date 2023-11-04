@@ -291,7 +291,7 @@ print(queue.pop()) // 2
 Lists have support for partial pattern matching, utilizing the `|` operator to separate elements from the rest of the list in a pattern match.
 You can extract values from different collections using pattern matching as shown below.
 
-```fs
+```fsharp
 match [1, 2, 3]
     | [f, s | t] => print(f, s, t) // 1 2 [3]
     | [h | t] => print(h) // 1
@@ -309,7 +309,7 @@ if list is [head | tail] {
 
 Maps have also support for partial pattern matching.
 
-```fs
+```fsharp
 match #{a: 1, b: 2, c: 3}
     | #{a: f, b: s} => print(f, s) // 1 2
     | #{a: f} => print(f) // 1
@@ -337,7 +337,7 @@ Methods:
 
 `mini` supports Rust-like enums.
 
-```fs
+```fsharp
 enum Optional {
     Some(value),
     None
@@ -515,7 +515,7 @@ else -x
 >
 > The `else if` statements can be used to add additional conditions to an `if-else` statement.
 
-```fs
+```fsharp
 if x >= 10 "ten or more"
 else if x >= 5 "five or more"
 else if x >= 1 "one or more"
@@ -529,7 +529,7 @@ else "none"
 First specify the value to match against, then specify a list of patterns separated by `|` characters.
 The first pattern that matches the value is the one that gets evaluated and returned.
 
-```fs
+```fsharp
 match x
     | 1 => "one"
     | 2 => "two"
@@ -540,7 +540,7 @@ One could think of match as many `if x is p` statements combined into a single s
 
 A match case can also have a guard using the `if` keyword, which ensures that the pattern on the left hand side also satesfies a logical condition on the right hand side, before evaluating the matching case expression.
 
-```fs
+```fsharp
 match x
     | number(n) if n > 0 => "positive"
     | number(n) if n < 0 => "negative"
@@ -550,7 +550,7 @@ match x
 
 You can also inline the pattern list, which is useful when the pattern list is short.
 
-```fs
+```fsharp
 x = Optional.Some(1)
 match x | Some(n) => "some" | None => "none"
 ```
@@ -561,13 +561,13 @@ match x | Some(n) => "some" | None => "none"
 
 The syntax is similar to the `for` loop in other languages such as Python and Ruby, using the `in` keyword to specify the list or iterable.
 
-```fs
+```fsharp
 for x in [1, 2, 3] print(x)
 ```
 
 Using a lazy iterator is possible by using the `..` operator.
 
-```fs
+```fsharp
 for x in 1..10 print(x)
 ```
 
@@ -692,7 +692,7 @@ else "unknown: " + x
 
 Can be used to handle optional values.
 
-```fs
+```fsharp
 if x is Optional.Some(v) "some: " + v
 else "none"
 ```
