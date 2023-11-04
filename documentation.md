@@ -111,7 +111,7 @@ print(_ignored) // Error, _ignored is not defined
 
 This is useful for catching all values in a pattern match.
 
-```fs
+```fsharp
 match x
     | 10 -> "ten"
     | _ -> "other" // Catch all values not already matched
