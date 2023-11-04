@@ -32,12 +32,11 @@ It is not intended to be a full language, but rather a language that can be expa
 ## Installation
 
 The latest version of `mini` can be installed using the commands below:
-```bash
-> git clone https://github.com/mini-lang/mini-lang
-> cd mini-lang
+```sh
+> git clone https://github.com/mini-lang/mini-lang && cd mini-lang
 > py mini.py
 ```
 
-> `mini` requires [Python](https://www.python.org/) version `3.0`, `3.6` or later.
+> `mini` requires [Python](https://www.python.org/) version `3.0` or later.
 
 <br/>
