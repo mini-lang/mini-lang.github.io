@@ -1,6 +1,6 @@
 remote_theme: jekyll/minima
 title: mini lang's homepage
-description: The official mini programming language website
+description: The official mini language website
 author: WilliamRagstad
 plugins:
   - jekyll-feed

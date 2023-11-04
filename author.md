@@ -5,7 +5,7 @@ summary: "A short bio about me!"
 ---
 
 # {% avatar WilliamRagstad %} William Rågstad
-Hello! I'm William Rågstad, a software developer from Sweden.
+Hello! I'm William, a software developer from Sweden.
 I'm really interested in programming languages, and I'm the one working on a the small mini language.
 
 Here's how you can reach me:
