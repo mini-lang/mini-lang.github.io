@@ -338,17 +338,27 @@ Methods:
 `mini` supports Rust-like enums.
 
 ```fsharp
-enum Optional {
-    Some(value),
-    None
-}
-
-x = Optional.Some(42)
-y = Optional.None
-z = Optional.Some([1, 2, 3])
+enum Letters = A | B | C
 ```
 
-All identifiers in an enum value argument list must be unique. The values are assigned to the identifiers in the order they are declared and are dynamically typed.
+All identifiers (e.g. `A`, `B` and `C`) in an enum must be **unique**.
+This means that the names may not occur more than once in the enum declaration.
+
+> **Example**: *Invalid enum declaration ❌*
+> ```fsharp
+> enum Optional = A | B | A
+> ```
+> The example above would throw an error, since `A` occurs twice in the enum declaration.
+
+The enum variant arguments/values are assigned in the order they are declared and are *dynamically typed*. This means that the enum variant arguments/values can be of any type.
+
+```fsharp
+enum Optional = Some(value) | None
+
+x = Some(42)
+y = None
+z = Some([1, 2, 3])
+```
 
 ### Classes
 
@@ -358,7 +368,7 @@ Animal = class {
         name: name
     }
 
-    speak() = {
+    speak() {
         return "{this.name} makes a noise."
     }
 }
@@ -371,7 +381,7 @@ The method is defined as a function expression, which has an implicit `this` par
 
 ```ts
 Dog = class : Animal {
-    Dog(name) = {
+    Dog(name) {
         // Code block with logic other than just a map
         return #{
             name: name,
