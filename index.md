@@ -11,7 +11,7 @@ layout: home
     <p>
     <br>
         <b>The mini programming language</b> built for the<br>
-        <a href="https://www.mini-lang.org/blog/" target="_blank">
+        <a href="https://www.mini-lang.org/blog" target="_blank">
             <em>Write a language in a week</em>
         </a> series.
     </p>
@@ -20,7 +20,7 @@ layout: home
 
 # The `mini` language
 
-This is the official programming language `mini` website, designed in the [*Write a language in a week*](https://www.mini-lang.org/blog/) blog series.
+This is the official programming language `mini` website, designed in the [*Write a language in a week*](https://www.mini-lang.org/blog) blog series.
 
 `mini` is a minimal programming language that is built for the purpose of teaching programming language design.
 The language is dynamically typed and expression-based. It is designed to be easy to learn and use. There are support for both functional and object oriented programming paradigms.
