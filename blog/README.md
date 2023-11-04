@@ -28,6 +28,7 @@ Below is a list of the most recent posts.
   {% endfor %}
 </ul>
 
+<!--
 ## Categories
 
 <ul>
@@ -38,3 +39,4 @@ Below is a list of the most recent posts.
     </li>
   {% endfor %}
 </ul>
+-->
