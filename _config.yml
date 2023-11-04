@@ -2,7 +2,6 @@ remote_theme: jekyll/minima
 title: mini lang's homepage
 description: The official mini language website
 author: mini-lang
-baseurl: "/mini-lang"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
