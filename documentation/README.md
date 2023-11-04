@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Documentation
+permalink: /documentation/
 ---
 
 # Documentation for the `mini` language
