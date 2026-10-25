@@ -9,7 +9,7 @@ permalink: /tutorial/v1
 This companion to *Write a language in a week* follows the educational v1
 interpreter. The earlier chapters introduce language design; this walkthrough
 connects those ideas to the code that actually runs. Start with the
-[v1 reference](/documentation) and Python 3.10 or later.
+[v1 reference](/documentation/v1) and Python 3.10 or later.
 
 ## Follow the active path
 
@@ -22,8 +22,8 @@ walks them using environments from `src/environment.py`.
 The newer `src/grammar/mini.lark` describes proposed syntax. It has no connection
 to execution. Adding a production there does not add a working language feature.
 Keep [the capability matrix](https://github.com/mini-lang/mini-lang/blob/main/docs/v1.md)
-next to you when experimenting. Classes, enums and pattern matching remain exercises
-for a future version.
+next to you when experimenting. Classes, enums and pattern matching remain part
+of the [intended language design](/documentation), beyond the current v1 subset.
 
 ## Make a loop able to change its condition
 
@@ -122,7 +122,8 @@ python test.py
 ```
 
 This runs the legacy tests, all example files, scope/control-flow/diagnostic tests,
-and every `mini` fence in the README and `docs/`. Expected output is written in
+and every `mini` fence in the v1 guide and `docs/`. The full language design is
+maintained separately in the README and the website specification. Expected output is written in
 `// =>` comments; each fence is a standalone program. Tests also check failure
 status, so a program that merely prints an error cannot pass as a successful run.
 

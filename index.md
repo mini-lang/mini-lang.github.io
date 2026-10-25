@@ -23,9 +23,10 @@ layout: home
 This is the official programming language `mini` website, designed in the [*Write a language in a week*](https://www.mini-lang.org/blog) blog series.
 
 `mini` is a minimal programming language that is built for the purpose of teaching programming language design.
-The language is dynamically typed and expression-based. It is designed to be easy to learn and use. The educational v1 subset supports functions, collections and structured control flow.
-Classes, enums and pattern matching are deferred. See the [verified reference](/documentation)
-and [implementation tutorial](/tutorial/v1).
+The language is dynamically typed and expression-based. It is designed to be easy to learn and use. The intended design supports both functional and object oriented programming paradigms.
+Read the [full language design](/documentation) for that direction.
+The current interpreter implements an educational v1 subset: see the
+[verified v1 reference](/documentation/v1) and [implementation tutorial](/tutorial/v1).
 
 It is not intended to be a full language, but rather a language that can be expanded upon and explore new and more advanced concepts in language design.
 
