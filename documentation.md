@@ -6,12 +6,21 @@ permalink: /documentation
 
 # Documentation for the `mini` language
 
+> **Intended language design**
+> This specification describes what Mini is intended to become, including features
+> beyond the current interpreter. The design and its examples remain part of the project.
+> For the executable subset, use the [educational v1 reference](/documentation/v1),
+> [implementation tutorial](/tutorial/v1), and
+> [capability matrix](https://github.com/mini-lang/mini-lang/blob/main/docs/v1.md).
+> Only examples explicitly marked `mini` in the v1 reference and tutorial are
+> tested as runnable v1 programs; the design examples below describe intended behavior.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to the documentation for the `mini` language! This is the place to go if you want to learn more about the language and how to use it. The documentation mainly focus on the language [specification](#specification).
 
 `mini` is a minimal programming language that is built for the purpose of teaching programming language design.
-The language is dynamically typed and expression-based. It is designed to be easy to learn and use. There are support for both functional and object oriented programming paradigms.
+The language is dynamically typed and expression-based. It is designed to be easy to learn and use. The intended design supports both functional and object oriented programming paradigms.
 
 <!-- Start Document Outline -->
 
@@ -47,7 +56,7 @@ The language is dynamically typed and expression-based. It is designed to be eas
 
 ## Features
 
-The language has a rich set of features, including:
+The intended language design includes:
 
 * Basic arithmetic, logic, and comparison operators
 * Primitive data types such as `number`, `boolean`, and `string`
@@ -63,6 +72,9 @@ The language has a rich set of features, including:
 * Other keywords and operators
 
 ## Specification
+
+The following describes the intended language. See the [v1 reference](/documentation/v1)
+for current implementation support and differences.
 
 The syntax of `mini` is similar to the [ECMAScript specification](https://tc39.es/ecma262/), but not identical.
 

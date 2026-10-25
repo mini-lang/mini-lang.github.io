@@ -9,7 +9,9 @@ permalink: /blog
 Welcome to the official [mini-lang](https://www.mini-lang.org) blog!
 This is a place where you can read about mini-lang, learn about the language, and the community around it.
 
-Below is a list of the most recent posts.
+For the current implementation, read [From syntax to working control flow](/tutorial/v1).
+Its examples are checked against the educational v1 interpreter. The original
+chapters below provide background rather than a complete language specification.
 
 ## Recent posts
 
